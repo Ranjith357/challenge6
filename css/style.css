@@ -1,0 +1,234 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  color: grey;
+  font-weight: 400;
+}
+
+/* container-1 */
+#container-1 {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.title, .head-2, .access-clipboard, .supercharge, .clipboard {
+  padding-top: 60px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.btn-ios, .btn-mac {
+  margin: 10px auto;
+  height: 40px;
+  width: 200px;
+  border: 1px solid;
+  border-radius: 28px;
+  padding: 0 15px;
+  color: #fff;
+}
+
+.btn-ios {
+  background-color: hsl(171, 66%, 44%);
+  border-color: hsl(171, 66%, 44%);
+}
+
+.btn-mac {
+  background-color: hsl(233, 100%, 69%);
+  border-color: hsl(233, 100%, 69%);
+}
+
+.btn-ios:hover {
+  background-color: hsl(171, 66%, 50%);
+  box-shadow: 0 0 20px hsl(171, 66%, 50%);
+}
+
+.btn-mac:hover {
+  background-color: hsl(233, 100%, 75%);
+  box-shadow: 0 0 20px hsl(233, 100%, 75%);
+}
+
+/* container-2 */
+.box-1 {
+  padding-top: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.computer {
+  margin: auto;
+  width: 70%;
+}
+
+.feauture-1, .feauture-2, .feauture-3 {
+  width: 80%;
+  padding: 10px 30px;
+  margin: auto;
+}
+
+/* container-3 */
+.devices {
+  display: block;
+  margin: auto;
+  padding: 30px 0;
+  width: 80%;
+}
+
+/* container-4 */
+.tools {
+  margin: auto;
+  display: flex;
+  padding-top: 50px;
+}
+
+.tool-1, .tool-2, .tool-3 {
+  margin: auto;
+  width: 30%;
+  text-align: center;
+}
+
+/* container-6 */
+#container-6 {
+  padding-bottom: 70px;
+}
+
+/* container-5 */
+.companys {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.cmpny-logo {
+  padding: 80px 0 50px;
+}
+
+/* bottom */
+#bottom {
+  background-color: hsl(201, 11%, 90%);
+  padding: 30px 0;
+}
+
+.lists {
+  color: hsl(210, 10%, 33%);
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+}
+
+.lists p {
+  color: hsl(210, 10%, 33%);
+}
+
+.lists a {
+  color: hsl(210, 10%, 33%);
+  text-decoration: none;
+}
+
+.list-4 {
+  padding-top: 20px;
+}
+
+.social-icon {
+  padding: 5px;
+}
+
+.social-icon:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* media query */
+@media(max-width:850px) {
+  #container-1 {
+    background-image: url("../images/bg-header-mobile.png");
+  }
+
+  .btn-ios, .btn-mac {
+    width: 80%;
+    height: 50px;
+  }
+
+  .box-1 {
+    display: block;
+    width: 100%;
+  }
+
+  .computer, .devices {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+
+  .feauture-1, .feauture-2, .feauture-3 {
+    width: 80%;
+  }
+
+  .feautures {
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .title, .head-2, .access-clipboard, .supercharge, .clipboard {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tools {
+    display: block;
+  }
+
+  .tool-1, .tool-2, .tool-3 {
+    margin: 60px auto;
+    width: 90%;
+  }
+
+  .companys {
+    display: block;
+  }
+
+  .cmpny-logo {
+    display: block;
+    margin: auto;
+    padding: 30px 0;
+  }
+
+  .lists {
+    display: block;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+  }
+
+  .bottom-logo {
+    width: 15%;
+    padding: 20px;
+  }
+}
